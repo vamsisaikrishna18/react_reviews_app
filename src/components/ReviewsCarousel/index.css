@@ -1,0 +1,55 @@
+/* Write your code here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height: 100vh;
+  background-size: cover;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-size: 38px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.carousel-card {
+  width: 900px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.imgIcon {
+  width: 130px;
+}
+
+.username {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.company {
+  font-size: 18px;
+  color: #171f46;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 18px;
+  color: #171f46;
+}
